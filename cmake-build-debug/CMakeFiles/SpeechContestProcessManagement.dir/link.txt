@@ -1,0 +1,1 @@
+/bin/g++ -g CMakeFiles/SpeechContestProcessManagement.dir/main.cpp.o -o SpeechContestProcessManagement 
