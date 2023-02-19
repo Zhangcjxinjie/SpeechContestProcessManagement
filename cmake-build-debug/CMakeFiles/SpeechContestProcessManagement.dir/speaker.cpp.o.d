@@ -1,6 +1,8 @@
-CMakeFiles/SpeechContestProcessManagement.dir/main.cpp.o: \
- /home/zxj/CLionProjects/SpeechContestProcessManagement/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/12.2.0/iostream \
+CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.o: \
+ /home/zxj/CLionProjects/SpeechContestProcessManagement/speaker.cpp \
+ /usr/include/stdc-predef.h \
+ /home/zxj/CLionProjects/SpeechContestProcessManagement/speaker.h \
+ /usr/include/c++/12.2.0/iostream \
  /usr/include/c++/12.2.0/x86_64-unknown-linux-gnu/bits/c++config.h \
  /usr/include/c++/12.2.0/x86_64-unknown-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -157,29 +159,4 @@ CMakeFiles/SpeechContestProcessManagement.dir/main.cpp.o: \
  /usr/include/c++/12.2.0/bits/locale_facets.tcc \
  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
  /usr/include/c++/12.2.0/bits/ostream.tcc /usr/include/c++/12.2.0/istream \
- /usr/include/c++/12.2.0/bits/istream.tcc \
- /home/zxj/CLionProjects/SpeechContestProcessManagement/speechManager.h \
- /usr/include/c++/12.2.0/vector \
- /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
- /usr/include/c++/12.2.0/bits/stl_vector.h \
- /usr/include/c++/12.2.0/bits/stl_bvector.h \
- /usr/include/c++/12.2.0/bits/vector.tcc /usr/include/c++/12.2.0/map \
- /usr/include/c++/12.2.0/bits/stl_tree.h \
- /usr/include/c++/12.2.0/ext/aligned_buffer.h \
- /usr/include/c++/12.2.0/bits/node_handle.h \
- /usr/include/c++/12.2.0/bits/stl_map.h /usr/include/c++/12.2.0/tuple \
- /usr/include/c++/12.2.0/bits/uses_allocator.h \
- /usr/include/c++/12.2.0/bits/stl_multimap.h \
- /usr/include/c++/12.2.0/bits/erase_if.h \
- /usr/include/c++/12.2.0/algorithm \
- /usr/include/c++/12.2.0/bits/stl_algo.h \
- /usr/include/c++/12.2.0/bits/algorithmfwd.h \
- /usr/include/c++/12.2.0/bits/stl_heap.h \
- /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
- /usr/include/c++/12.2.0/bits/uniform_int_dist.h \
- /usr/include/c++/12.2.0/pstl/glue_algorithm_defs.h \
- /usr/include/c++/12.2.0/pstl/execution_defs.h \
- /usr/include/c++/12.2.0/numeric \
- /usr/include/c++/12.2.0/bits/stl_numeric.h /usr/include/c++/12.2.0/bit \
- /usr/include/c++/12.2.0/pstl/glue_numeric_defs.h \
- /home/zxj/CLionProjects/SpeechContestProcessManagement/speaker.h
+ /usr/include/c++/12.2.0/bits/istream.tcc
