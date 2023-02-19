@@ -83,17 +83,49 @@ CMakeFiles/SpeechContestProcessManagement.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpeechContestProcessManagement.dir/main.cpp.s"
 	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/CLionProjects/SpeechContestProcessManagement/main.cpp -o CMakeFiles/SpeechContestProcessManagement.dir/main.cpp.s
 
+CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.o: CMakeFiles/SpeechContestProcessManagement.dir/flags.make
+CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.o: /home/zxj/CLionProjects/SpeechContestProcessManagement/speechManager.cpp
+CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.o: CMakeFiles/SpeechContestProcessManagement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/CLionProjects/SpeechContestProcessManagement/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.o -MF CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.o.d -o CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.o -c /home/zxj/CLionProjects/SpeechContestProcessManagement/speechManager.cpp
+
+CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.i"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/CLionProjects/SpeechContestProcessManagement/speechManager.cpp > CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.i
+
+CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.s"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/CLionProjects/SpeechContestProcessManagement/speechManager.cpp -o CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.s
+
+CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.o: CMakeFiles/SpeechContestProcessManagement.dir/flags.make
+CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.o: /home/zxj/CLionProjects/SpeechContestProcessManagement/speaker.cpp
+CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.o: CMakeFiles/SpeechContestProcessManagement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/CLionProjects/SpeechContestProcessManagement/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.o -MF CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.o.d -o CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.o -c /home/zxj/CLionProjects/SpeechContestProcessManagement/speaker.cpp
+
+CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.i"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/CLionProjects/SpeechContestProcessManagement/speaker.cpp > CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.i
+
+CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.s"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/CLionProjects/SpeechContestProcessManagement/speaker.cpp -o CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.s
+
 # Object files for target SpeechContestProcessManagement
 SpeechContestProcessManagement_OBJECTS = \
-"CMakeFiles/SpeechContestProcessManagement.dir/main.cpp.o"
+"CMakeFiles/SpeechContestProcessManagement.dir/main.cpp.o" \
+"CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.o" \
+"CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.o"
 
 # External object files for target SpeechContestProcessManagement
 SpeechContestProcessManagement_EXTERNAL_OBJECTS =
 
 SpeechContestProcessManagement: CMakeFiles/SpeechContestProcessManagement.dir/main.cpp.o
+SpeechContestProcessManagement: CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.o
+SpeechContestProcessManagement: CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.o
 SpeechContestProcessManagement: CMakeFiles/SpeechContestProcessManagement.dir/build.make
 SpeechContestProcessManagement: CMakeFiles/SpeechContestProcessManagement.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxj/CLionProjects/SpeechContestProcessManagement/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SpeechContestProcessManagement"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxj/CLionProjects/SpeechContestProcessManagement/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable SpeechContestProcessManagement"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SpeechContestProcessManagement.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

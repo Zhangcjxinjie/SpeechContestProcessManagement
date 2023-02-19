@@ -153,6 +153,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpeechContestProcessManagement.dir/build.make CMakeFiles/SpeechContestProcessManagement.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+speaker.o: speaker.cpp.o
+.PHONY : speaker.o
+
+# target to build an object file
+speaker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpeechContestProcessManagement.dir/build.make CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.o
+.PHONY : speaker.cpp.o
+
+speaker.i: speaker.cpp.i
+.PHONY : speaker.i
+
+# target to preprocess a source file
+speaker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpeechContestProcessManagement.dir/build.make CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.i
+.PHONY : speaker.cpp.i
+
+speaker.s: speaker.cpp.s
+.PHONY : speaker.s
+
+# target to generate assembly for a file
+speaker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpeechContestProcessManagement.dir/build.make CMakeFiles/SpeechContestProcessManagement.dir/speaker.cpp.s
+.PHONY : speaker.cpp.s
+
+speechManager.o: speechManager.cpp.o
+.PHONY : speechManager.o
+
+# target to build an object file
+speechManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpeechContestProcessManagement.dir/build.make CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.o
+.PHONY : speechManager.cpp.o
+
+speechManager.i: speechManager.cpp.i
+.PHONY : speechManager.i
+
+# target to preprocess a source file
+speechManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpeechContestProcessManagement.dir/build.make CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.i
+.PHONY : speechManager.cpp.i
+
+speechManager.s: speechManager.cpp.s
+.PHONY : speechManager.s
+
+# target to generate assembly for a file
+speechManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpeechContestProcessManagement.dir/build.make CMakeFiles/SpeechContestProcessManagement.dir/speechManager.cpp.s
+.PHONY : speechManager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +213,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... speaker.o"
+	@echo "... speaker.i"
+	@echo "... speaker.s"
+	@echo "... speechManager.o"
+	@echo "... speechManager.i"
+	@echo "... speechManager.s"
 .PHONY : help
 
 

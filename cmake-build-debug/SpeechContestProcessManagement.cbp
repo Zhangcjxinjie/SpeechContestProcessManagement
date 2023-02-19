@@ -85,6 +85,18 @@
 		<Unit filename="/home/zxj/CLionProjects/SpeechContestProcessManagement/main.cpp">
 			<Option target="SpeechContestProcessManagement"/>
 		</Unit>
+		<Unit filename="/home/zxj/CLionProjects/SpeechContestProcessManagement/speaker.cpp">
+			<Option target="SpeechContestProcessManagement"/>
+		</Unit>
+		<Unit filename="/home/zxj/CLionProjects/SpeechContestProcessManagement/speaker.h">
+			<Option target="SpeechContestProcessManagement"/>
+		</Unit>
+		<Unit filename="/home/zxj/CLionProjects/SpeechContestProcessManagement/speechManager.cpp">
+			<Option target="SpeechContestProcessManagement"/>
+		</Unit>
+		<Unit filename="/home/zxj/CLionProjects/SpeechContestProcessManagement/speechManager.h">
+			<Option target="SpeechContestProcessManagement"/>
+		</Unit>
 		<Unit filename="/home/zxj/CLionProjects/SpeechContestProcessManagement/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
