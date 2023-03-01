@@ -15,6 +15,7 @@ int main() {
         switch (choice) {
             // Start a new contest
             case 1:
+                sm.startSpeech();
                 break;
             // Check History contest
             case 2:

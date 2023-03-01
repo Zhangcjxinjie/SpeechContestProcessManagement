@@ -73,6 +73,7 @@ void SpeechManager::startSpeech() {
 
     // First round contest
     // 1, draw lots
+    drawrots();
     // 2, contest
     // 3, show winner
     // Second round contest
@@ -103,4 +104,9 @@ void SpeechManager::drawrots() {
         cout << endl;
     }
     cout << endl;
+}
+
+void SpeechManager::speechContest() {
+    cout << "The " << grcounter << " contest is starting "<< endl;
+    
 }

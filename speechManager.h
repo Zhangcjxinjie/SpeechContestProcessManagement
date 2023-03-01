@@ -36,6 +36,9 @@ public:
     // draw rots
     void drawrots();
 
+    // speech contest
+    void speechContest();
+
 
     //12 speakers
     vector<int> allSpeakers;
